@@ -1,5 +1,5 @@
 :root {
-  --brand: #FFD700; /* Amarillo dorado: alegrÌa y energÌa */
+  --brand: #FFD700; /* Amarillo dorado: alegr√≠a y energ√≠a */
   --text: #333333;  /* Texto principal */
   --bg: #FFFFFF;    /* Fondo blanco */
   --accent: #0B7;   /* Verde suave como acento espiritual */
@@ -53,7 +53,7 @@ nav a {
 }
 
 .btn:hover {
-  background: #FFC300; /* Amarillo m·s intenso al pasar el mouse */
+  background: #FFC300; /* Amarillo m√°s intenso al pasar el mouse */
 }
 
 section {
