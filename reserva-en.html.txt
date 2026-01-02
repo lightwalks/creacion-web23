@@ -1,0 +1,29 @@
+<h2>Reservation Form</h2>
+<p>This is a pre?reservation with no upfront payment. The experience is confirmed by email.<br>
+Satisfaction guaranteed. If not satisfied, the experience is free!</p>
+
+<form>
+  <label>Full Name</label>
+  <input type="text" name="name">
+
+  <label>Email</label>
+  <input type="email" name="email">
+
+  <label>Phone</label>
+  <input type="tel" name="phone">
+
+  <label>Experience</label>
+  <select name="experience">
+    <option>Laughter</option>
+    <option>Poetic</option>
+    <option>Wellness</option>
+  </select>
+
+  <label>Notes</label>
+  <textarea name="notes"></textarea>
+
+  <button class="btn" type="submit">Submit</button>
+</form>
+
+<nav>
+  <span class="lang"><a href 

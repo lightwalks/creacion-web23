@@ -1,0 +1,75 @@
+:root {
+  --brand: #FFD700; /* Amarillo dorado: alegría y energía */
+  --text: #333333;  /* Texto principal */
+  --bg: #FFFFFF;    /* Fondo blanco */
+  --accent: #0B7;   /* Verde suave como acento espiritual */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: var(--brand);
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  color: #000;
+}
+
+nav {
+  margin: 1rem 0;
+}
+
+nav a {
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.lang {
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--brand);
+  color: #000;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #FFC300; /* Amarillo más intenso al pasar el mouse */
+}
+
+section {
+  padding: 2rem;
+  border-bottom: 1px solid #eee;
+}
+
+section h2 {
+  color: var(--accent);
+  margin-top: 0;
+}
+
+ol {
+  padding-left: 1.2rem;
+}
+
+ol li {
+  margin-bottom: 0.8rem;
+} 
